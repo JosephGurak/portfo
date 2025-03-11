@@ -2231,6 +2231,8 @@ input, select, textarea {
 		}
 
 	ul {
+		width: 100%;
+		text-align: center;
 		list-style: disc;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
@@ -2345,7 +2347,7 @@ input, select, textarea {
 	ul.icons {
 		cursor: default;
 		list-style: none;
-		padding-left: 0;
+		padding: 1rem 0;
 	}
 
 		ul.icons li {
@@ -3637,7 +3639,7 @@ input, select, textarea {
 		}
 
 			#contact > .inner > :nth-child(2n - 1) {
-				padding: 4em 3em 2em 0 ;
+				padding: 4em 3em 2em 2rem ;
 				border-right: solid 1px rgba(212, 212, 255, 0.1);
 				width: 60%;
 			}
@@ -3710,7 +3712,7 @@ input, select, textarea {
 	#footer .copyright {
 		font-size: 0.8em;
 		list-style: none;
-		padding-left: 0;
+		padding: 0 0 1rem 0;
 	}
 
 		#footer .copyright li {
